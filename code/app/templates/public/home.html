@@ -1,0 +1,50 @@
+{% extends 'public/base.html' %}
+{% load static %}
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{% static 'public/cover.css' %}">
+    <style>
+        
+    </style>
+{% block content %}
+
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Find Devices!</h1>
+        <p>このサイトは、Game Streamerが使用している機材を登録/検索するサイトです。</p><p>あなたも好きなStreamerと同じデバイスでゲームをプレイしよう！</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>検索</h2>
+          <p>GameStreamerのデバイス検索しましょう！検索するのは登録など不要です。</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>登録</h2>
+          <p>あなたの好きなGameStreamerのデバイスを登録しましょう！登録するにはメール登録が必要になります</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>準備中</h2>
+          <p>コンテンツの準備中</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+    </div> <!-- /container -->
+
+  </main>
+
+  <footer class="container">
+    <p>&copy; Company 2017-2018</p>
+  </footer>
+{% endblock %}
